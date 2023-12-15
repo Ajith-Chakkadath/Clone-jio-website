@@ -1,0 +1,44 @@
+.lerncontainers{
+    margin: auto;
+   border-radius: 20px;
+    padding: 20px;
+    background-color: red;
+    width: 80%;
+    height: 55vh;
+    background-image: url(https://jep-asset.akamaized.net/jio/welcome-page-image/carrier-desktop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lerntextdiv{
+    padding-top: 60px;
+  width: 50%;
+  
+}
+
+.lerntextdiv h4{
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.lerntextdiv p{
+    padding-top:20px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.lerntextdiv a{
+  
+    background-color: blue;
+    padding: 13px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}

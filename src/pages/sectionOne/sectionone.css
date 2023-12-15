@@ -1,0 +1,76 @@
+.maindiv{
+    /* background-color: blue; */
+   padding:64px
+}
+.sectiondiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headingdiv{
+    width: 50%;
+    margin: 10px;
+    
+}
+.headingdiv p{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.sections{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+.rightone , .leftone{
+    width: 50%;
+    height: 66vh;
+    margin: 20px;
+    /* padding: 30px; */
+    /* border: 5px solid black; */
+    border-radius: 30px;
+    position: relative;
+}
+
+.contnet{
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 30px;
+    /* background-color: blue; */
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+
+}
+.true5g{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10px; */
+    /* border: 5px solid black; */
+    border-radius: 30px;
+    margin: 10px;
+    background-color: rgb(251, 92, 6);
+}
+.true5g p{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+}
+.text p{
+    font-size: 30px;
+}
+
+.logosection{
+    width: 40px;
+    height: 40px;
+}
