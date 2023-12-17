@@ -1,45 +1,49 @@
 import React from 'react'
-import jio from '../../img/jio.png'
-import './sectionone.css'
-import rightimg from '../../img/airfiber-desktop.webp'
-// import leftimg from '../../img/true-5g-desktop.webp'
-
+import "./sectionone.css"
 export default function Sectionfirst() {
   return (
-    <div className='maindiv'>
-        <div className="sectiondiv">
-            <div className="headingdiv">
-                <p>
-                    Look what's new and noteworthy
-                </p>
+    <div className='sfcontainer'>
+        <div className="sfmain">
+            <div className="sfheading">
+                <h4>Look what's new and noteworthy</h4>
             </div>
-            <div className="sections">
-                <div className="rightone">
-                    <img src="https://jep-asset.akamaized.net/jiostaticresources/v05/images/home/true5g.svg" alt="" />
-                   <div className="contnet">
-                   <button><img className='logosection' src={jio} alt="" />
-                        <p>TRUE 5G</p></button>
-                    <div className='text'>
-                        <p>now in7.764 loaction in india</p>
+            <div className="sfdivimg">
+                <div className="sfright">
+                    <img src="https://jep-asset.akamaized.net/jiostaticresources/v05/images/home/true-5g-desktop.webp" alt="" />
+                    <div className="sfcontent">
+                        <div className="sfconten-img">
+                            <img src="https://jep-asset.akamaized.net/jiostaticresources/v05/images/home/true5g.svg" alt="" />
+                        </div>
+                       
+                            <div className="sfcontent-text">
+                                <p>Now in 7,768 locations in india</p>
+                            </div>
+                            <br></br>
+                            <br />
+                            <div className="sfcontent-btn ">
+                                <a className='btn-bg-orng'>Check availability</a>
+                            </div>
                     </div>
-                    <button>Check avilabilty</button>
-                   </div>
                 </div>
-                <div className="leftone">
-                    <img src={rightimg} alt="" />
-                    <div className="contnet">
-                   <div className="airfiber">
-                        <img className='logosection'  src={jio} alt="" />
-                        <p>Air Fiber</p>
+                <div className="sfleft">
+                    <img src="https://jep-asset.akamaized.net/jiostaticresources/v05/images/home/airfiber-desktop.webp" alt="" />
+                    <div className="sfcontent">
+                        <div className="sfconten-img">
+                            <img src="https://jep-asset.akamaized.net/jiostaticresources/v05/images/home/airfiber-icon.svg" alt="" />
+                        </div>
+                            <div className="sfcontent-text">
+                                <p>Availabe across 514 twons in india</p>
+                            </div>
+                            <br />
+                            <br />
+                            <div className="sfcontent-btn">
+                                <a className='btn-bg-blue'>Know more</a>
+                            </div>
                     </div>
-                    <div>
-                        <p>Avilabe across 514 town in india </p>
-                    </div>
-                    <button>know more</button>
-                   </div>
                 </div>
             </div>
         </div>
+
     </div>
   )
 }
