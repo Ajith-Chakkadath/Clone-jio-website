@@ -27,34 +27,51 @@ export default function Spolite() {
                     <div className="scard-img">
                         <img src="https://jep-asset.akamaized.net/cms/assets/home/ajio-card1.webp" alt="" />
                     </div>
+                    <div className='scontent'>
                     <div className="scardtext">
                         <h4>Enjoy discount on iconic brand</h4>
                     </div>
+                    <br></br>
+                    <br></br>
+                    <br />
                     <div className="scardbtn">
-                        <a>Shop on jio</a>
+                        <a>Shop at AJIO</a>
+                    </div>
                     </div>
                 </div>
                 <div className='scard'>
                     <div className="scard-img">
                         <img src="https://jep-asset.akamaized.net/cms/assets/home/hamleys-card2.webp" alt="" />
                     </div>
+                    <div className="scontent">
                     <div className="scardtext">
                         <h4>Come, explore the winter Toyland</h4>
                     </div>
+                    <br />
+                    <br />
+                    <br />
                     <div className="scardbtn">
                         <a>Go to hamleys</a>
                     </div>
+                    </div>
+                    
                 </div>
                 <div className='scard'>
                     <div className="scard-img">
                         <img src="https://jep-asset.akamaized.net/cms/assets/home/netmeds-card3.webp" alt="" />
                     </div>
+                    <div className="scontent">
                     <div className="scardtext">
                         <h4>Save Big on beauty & wellness products</h4>
                     </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                     <div className="scardbtn">
                         <a>Book at Netmeds</a>
                     </div>
+                    </div>
+                   
                 </div>
             </div>
         </div>

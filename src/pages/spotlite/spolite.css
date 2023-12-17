@@ -112,14 +112,14 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    background-color: rgb(243, 241, 241);
+    /* background-color: rgb(243, 241, 241); */
     margin-bottom: 60px;
 }
 
 .scard{
       /* margin-left: auto;
     margin-right: auto; */
-    width: 400px;
+    width: 350px;
     height: 500px;
     background-color: #fff;
     /* border: 2px solid  rgb(237, 67, 67); */
@@ -135,4 +135,34 @@
     width: 100%;
     height: 100%;
     border-radius: 15px 15px 0 0;
+}
+
+.scontent{
+    /* position: absolute; */
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    color: #fff;
+    padding:20px ;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.scardtext h4{
+    font-weight: 900;
+    text-transform: none;
+    font-size: 2rem;
+    letter-spacing: -.96px;
+    line-height: 1.25;
+}
+
+.scardbtn a{
+    background-color: rgb(123, 182, 235);
+    padding: 9px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: rgb(18, 18, 129);
 }
