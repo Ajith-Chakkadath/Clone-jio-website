@@ -2,7 +2,7 @@ import React from 'react'
 import jio from '../../img/jio.png'
 import './sectionone.css'
 import rightimg from '../../img/airfiber-desktop.webp'
-import leftimg from '../../img/true-5g-desktop.webp'
+// import leftimg from '../../img/true-5g-desktop.webp'
 
 export default function Sectionfirst() {
   return (
@@ -15,7 +15,7 @@ export default function Sectionfirst() {
             </div>
             <div className="sections">
                 <div className="rightone">
-                    <img src={leftimg} alt="" />
+                    <img src="https://jep-asset.akamaized.net/jiostaticresources/v05/images/home/true5g.svg" alt="" />
                    <div className="contnet">
                    <button><img className='logosection' src={jio} alt="" />
                         <p>TRUE 5G</p></button>

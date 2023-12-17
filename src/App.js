@@ -15,6 +15,7 @@ import Lern from './pages/lerarn/lern';
 import Productheading from './pages/product/Productheading';
 import Productcard from './pages/product/Productcard';
 import Spolite from './pages/spotlite/spolite';
+import Carsole from './pages/Carasole/carsole';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
    <Sectionfirst />
    <Digital />
    <Videobar />
+   <Carsole />
    <Spolite />
    <Productheading />
    <Productcard />

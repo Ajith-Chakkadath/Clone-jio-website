@@ -1,0 +1,152 @@
+.cwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cslider{
+    height: 350px ;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+}
+
+.cslider .cslidetrack{
+    -webkit-animation: scroll 10s linear infinite;
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: calc(400px *5);
+}
+
+
+
+
+
+.cslide{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.leftslide{
+    position: relative;
+    /* padding: px; */
+}
+.leftslide img{
+    width: 400px;
+    height: 250px;
+}
+
+.ccontentdiv{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 15px;
+    left: 20px;
+}
+
+.leftslideimg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.leftslideimg p{
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+}
+.leftslidecontent{
+    margin-bottom: 10px;
+}
+
+.leftslidecontent p{
+    
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+
+}
+.leftslideimg img{
+    width: 25px;
+    height: 25px;
+}
+
+.leftslidebtn a{
+    /* color: rgb(40, 40, 249);
+    background-color: rgb(123, 123, 241); */
+    padding: 8px;
+    border-radius: 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+
+}
+
+
+.col-white-ft{
+color: #fff;
+}
+
+.col-blue-ft{
+    color: rgb(40, 40, 249);
+}
+
+.col-blue-bg{
+    background-color: rgb(123, 123, 241);
+}
+
+.col-blue-bg-sd{
+    background-color: rgb(35, 35, 230);
+}
+
+.col-green-ft{
+    color: rgb(5, 76, 5);
+}
+
+.col-green-bg{
+    background-color: rgb(5, 76, 5);
+}
+
+.col-green-bg-sd{
+    background-color: rgb(17, 162, 17);
+}
+
+.col-pink-bg-sd{
+    background-color: rgb(242, 67, 143);
+}
+
+.col-pink-ft{
+    color: rgb(197, 58, 81);
+}
+
+.col-pink-bg{
+    background-color: rgb(229, 195, 201);
+}
+
+.col-greenl-bg-sd{
+    background-color: rgb(175, 212, 120);
+}
+
+@-webkit-keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }100% {
+        transform: translateX(calc(-250px *5));
+    }
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }100% {
+        transform: translateX(calc(-250px *5));
+    }
+}
